@@ -1,0 +1,47 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body{
+    text-align: center;
+    justify-content: center;
+    padding: 200px;
+}
+
+.pole{
+    color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tlacitko{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto 20px;
+}
+
+.zpravy{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.cas{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: -5px;
+}
